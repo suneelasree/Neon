@@ -10,15 +10,12 @@ Scenario 1: Create a Project with Valid Information
 4.	Click the "Create Project" button.
 •	Expected Result: The project is created successfully, and the user is redirected to the project dashboard.
 
-"""
 Scenario 2: Create a Project with Missing Name
+•	Preconditions: User is on the project creation form.
+•	Steps:
+1.	Leave the "Name" field empty.
+2.	Select a Postgres version.
+3.	Choose a region.
+4.	Click the "Create Project" button.
+•	Expected Result: An error message appears, indicating that the project name is required.
 
-Preconditions: User is on the project creation form.
-Steps:
-Leave the "Name" field empty.
-Select a Postgres version.
-Choose a region.
-Click the "Create Project" button.
-Expected Result: System will asign automatic name 
-
-"""
