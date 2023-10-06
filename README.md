@@ -38,3 +38,13 @@ Scenario 4: Create a Project with No Region Selected
 4.	Click the "Create Project" button.
 •	Expected Result: Project will be created with default Region
 
+Scenario 5: Create a Project with Special Characters in Name
+
+Preconditions: User is on the project creation form.
+Steps:
+Enter a project name that contains special characters (e.g., !@#$%^&*()_+) in the "Name" field.
+Select a Postgres version from the available options.
+Choose a region from the available options.
+Click the "Create Project" button.
+Expected Result: The project is created successfully without any issues, and the user is
+redirected to the project dashboard. This scenario tests the ability of the system to handle project names with special characters.
