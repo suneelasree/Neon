@@ -28,3 +28,13 @@ Scenario 3: Create a Project with No Postgres Version Selected
 3.	Choose a region.
 4.	Click the "Create Project" button.
 •	Expected Result: Project will be created with default version
+
+Scenario 4: Create a Project with No Region Selected
+•	Preconditions: User is on the project creation form.
+•	Steps:
+1.	Enter a valid project name.
+2.	Select a Postgres version.
+3.	Do not choose any region.
+4.	Click the "Create Project" button.
+•	Expected Result: Project will be created with default Region
+
