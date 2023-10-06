@@ -19,3 +19,12 @@ Scenario 2: Create a Project with Missing Name
 4.	Click the "Create Project" button.
 •	Expected Result: An error message appears, indicating that the project name is required.
 
+
+Scenario 3: Create a Project with No Postgres Version Selected
+•	Preconditions: User is on the project creation form.
+•	Steps:
+1.	Enter a valid project name.
+2.	Do not select any Postgres version.
+3.	Choose a region.
+4.	Click the "Create Project" button.
+•	Expected Result: Project will be created with default version
