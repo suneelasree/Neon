@@ -1,6 +1,6 @@
 
 """
-Scenario 6: Create a Project with Special Characters in Name
+Scenario 5: Create a Project with Special Characters in Name
 
 Preconditions: User is on the project creation form.
 Steps:
